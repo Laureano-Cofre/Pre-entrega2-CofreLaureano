@@ -14,7 +14,7 @@ $bgfooter: #00008b;
     font-family: 'Oswald', sans-serif;
 }
 
-/* INICIO DE FOOTER con nesting*/
+/* INICIO DE FOOTER CON NESTING*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
  .pie-pagina{
@@ -46,6 +46,7 @@ $bgfooter: #00008b;
         }
         a:hover{
             color: $colorfooter;
+            transform: scale(2);
         }
     }
  }
